@@ -1,0 +1,32 @@
+/* Container */
+.container{
+    background-color: aliceblue;
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+/* Box1 */
+.box1{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+}
+
+
+
+/* Box2 */
+.box2{
+    background-color: green;
+    height: 100px;
+    width: 100px;
+}
+
+/* Box3 */
+.box3{
+    background-color: blue;
+    height: 100px;
+    width: 100px;
+}

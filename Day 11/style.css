@@ -1,0 +1,35 @@
+.card{
+    width: 200px;
+    height: auto;
+    border: 2px solid black;
+    overflow: hidden;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+
+.img{
+    width: 200px;
+    height: auto;
+}
+
+
+.text-center{
+    text-align: center;
+}
+
+.details{
+    color: blue;
+}
+
+.btn{
+    background-color: skyblue;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.gap{
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+    /* padding: 8px 0; */
+}
