@@ -1,0 +1,48 @@
+/* Font Family */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+/* Boilerplate */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}                                                                                                                                                                                      
+
+/* Reusable CSS */
+.container{
+    padding: 0 100px;
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    border-radius: 4px;
+    padding: 4px 8px;   
+}
+
+/* Topbar */
+.topbar{
+    background-color: #264788;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contact-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.social-links a, span{
+    text-decoration: none;
+    color: white;
+}
+
+/* Navabr */
+
+.navbar{
+    background-color: red;
+    height: 100px;
+}
