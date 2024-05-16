@@ -1,0 +1,49 @@
+/* Base */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+/* Custom css */
+.certificate{
+    position: relative;
+}
+
+
+.name{
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+
+.course{
+    position: absolute;
+    top: 370px;
+    left: 300px;
+}
+
+
+.day{
+    position: absolute;
+    top: 430px;
+    left: 450px;
+}
+
+.month{
+    position: absolute;
+    top: 430px;
+    left: 580px;
+}
+
+.year{
+    position: absolute;
+    top: 430px;
+    left: 690px;
+}
+
+.wish{
+    position: absolute;
+    top: 520px;
+    left: 520px;
+}

@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.parent-box{
+    background-color: blueviolet;
+    height: 5000px;
+    color: white;
+}
+
+.box1{
+    height: 100px;
+    width: 500px;
+    background-color: red;
+}
+
+.box2{
+    height: 100px;
+    width: 500px;
+    background-color: green;
+    position: relative;
+    top: 10px;
+}
+.box3{
+    height: 100px;
+    width: 500px;
+    background-color: blue;
+}
+
+
+/* 
+1. Static
+2. Relative
+3. Absolute
+4. Fixed
+5. Sticky
+*/
