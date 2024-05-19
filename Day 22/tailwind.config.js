@@ -3,13 +3,13 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
-      animation:{
-        'slow-bounce': 'bounce 2s ease-out infinite' 
+      animation: {
+        'monkey': 'jump 2s linear infinite',
       },
-      keyframes:{
-        bounce:{
-          '0%, 100%':{transform: 'translateY(0)'},
-          '50%':{transform: 'translateY(40px)'},
+      keyframes: {
+        jump: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(30px)' },
         }
       }
     },
